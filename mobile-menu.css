@@ -1,0 +1,26 @@
+@media screen and (max-width: 800px) {
+    .item-list{
+        display: none;
+    }
+    .botao{
+        display: flex;
+        align-items: center;
+    }
+    .botao button{
+        background-color: transparent;
+        border: 0px;
+        cursor: pointer;
+    }
+    .menu-mobile ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-mobile .item-list{
+        display: block;
+        padding: 10px 0px;
+    }
+    .open{
+        display: block;
+    }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rodrigo Farias</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile-menu.css">
   </head>
   <body>
     <header>
@@ -16,25 +17,46 @@
         <div id="div-bar">
           <ul>
             <li>
-              <a href="#">Home |</a>
+              <a href="#" class="item-list">Home |</a>
             </li>
             <li>
-              <a href="#">Projetos realizados |</a>
+              <a href="#" class="item-list">Projetos realizados |</a>
             </li>
             <li>
-              <a href="#">Certificados |</a>
+              <a href="#" class="item-list">Certificados |</a>
             </li>
             <li>
-                <a href="#">Curso</a>
+                <a href="#" class="item-list">Curso</a>
             </li>
           </ul>
         </div>
+        
+        
         <div class="botao">
           <button onclick="menuShow()">
             <img class="icon" src="menu_white_36dp.svg" alt="" />
           </button>
         </div>
       </nav>
+
+      <!--mobile menu-->
+      <div class="div-bar-mobile">
+        <ul>
+          <li>
+            <a href="#" class="item-list">Home</a>
+          </li>
+          <li>
+            <a href="#" class="item-list">Projetos realizados</a>
+          </li>
+          <li>
+            <a href="#" class="item-list">Certificados</a>
+          </li>
+          <li>
+              <a href="#" class="item-list">Curso</a>
+          </li>
+        </ul>
+      </div>
+
     </header>
     <main>
         <div id="tit">
@@ -43,11 +65,16 @@
         <div id="fundo"></div>
         <div class="txt">
             <h2>Business Intelligence</h2>
-            <p>A tecnologia da informação cresce de forma significativa. Por outro lado, para as empresas, surge a necessidade de atualização constante para se manter competitiva, e também obter melhor nível de informação em menor tempo para tomada de decisão. Esses avanços tecnológicos podem ser entendidos como um conjunto de recursos utilizado para coletar e processar dados, gerando informações e conhecimentos para as empresas e usuários.</p>
+            <p>A tecnologia da informação cresce de forma significativa. Por outro lado, para as empresas, surge a necessidade de atualização constante para se manter competitiva, e também obter melhor nível de informação em menor tempo para tomada de decisão. Esses avanços tecnológicos podem ser entendidos como um conjunto de recursos utilizado para coletar e processar dados, gerando informações e conhecimentos para as empresas e usuários. </p>
+            <p>A base de dados da empresa é uma das melhores fontes de pesquisa que o gestor pode ter, uma vez que possui todas as informações sobre as atividades desenvolvidas. Podem ser
+            identificados, por essa base, os principais clientes, os produtos mais lucrativos, traçar tendências, projetar negócios futuros e se adequar às necessidades do mercado.</p>
             <h2></h2>
             <p></p>
         </div>
+
+
         
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
