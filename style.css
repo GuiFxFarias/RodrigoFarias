@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+
+:root{
+    --fontprin: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: #050632;
+    padding: 10px;
+}
+
+#image{
+    border-radius: 50%;
+    width: 100px;
+    display: flex;
+    border: 2px solid white;
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.584);
+}
+
+#nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+
+#div-bar{
+    display: flex;
+    align-items: center;
+}
+
+#div-bar ul{
+    display: flex;
+    list-style: none;
+    font-size: 16pt;
+}
+#div-bar li{
+    padding-right: 10px;
+}
+
+.botao{
+    display: none;
+    align-items: center;
+}
+
+main{
+    background-color: rgb(225, 225, 225);
+}
+
+#tit{
+    height: 10vh;
+    font-size: calc(0.4em + 1.1 vw);
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fontprin);
+    display: flex;
+    background-color: rgb(225, 225, 225);
+    text-shadow: 1px 1px 7px rgba(0, 0, 0, 0.527);
+}
+
+#txt{
+    height: 100%;
+    width: 100%;
+    background-color: ;
+    max-width: 900px;
+    margin: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#txt p{
+    line-height: 2em;
+    text-indent: 20px;
+}
+
+#fundo{
+    background-image: url('imagens/fundo.jpg');
+    background-size: cover;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
+}
