@@ -1,5 +1,5 @@
 function menuShow(){
-    let menumobile = document.querySelector('.menu-mobile');
+    let menumobile = document.querySelector('.div-bar-mobile');
     if (menumobile.classList.contains('open')){
         menumobile.classList.remove('open');
         document.querySelector('.icon').src = 'menu_white_36dp.svg'

@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
     .item-list{
         display: none;
     }
@@ -11,14 +11,14 @@
         border: 0px;
         cursor: pointer;
     }
-    .menu-mobile ul{
+    .div-bar-mobile ul{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
-    .menu-mobile .item-list{
+    .div-bar-mobile .item-list{
         display: block;
-        padding: 10px 0px;
+        padding: 5px 0px;
     }
     .open{
         display: block;
