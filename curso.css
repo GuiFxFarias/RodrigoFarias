@@ -1,0 +1,6 @@
+.foto-aula{
+    background-image: url('imagens/aula.jfif');
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+}
