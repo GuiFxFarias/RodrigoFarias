@@ -1,6 +1,84 @@
-.foto-aula{
-    background-image: url('imagens/aula.jfif');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+
+:root {
+  --fontprin: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+main{
+    
     background-size: cover;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto-aula {
+  background-image: url("imagens/aula.jpeg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  background-color: rgba(0, 0, 0, 0.575);
+  width: 100%;
+  max-width: 600px;
+  height: 500px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.txt-ft {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  background-color: rgba(0, 0, 0, 0.629);
+  color: white;
+  border-radius: 10px;
+  text-shadow: 1px 1px 4px white;
+  height: 40px;
+  padding: 10px;
+
+  transform: translate(10%, -10%);
+  top: 650px;
+}
+
+.texto {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  background-color: rgba(225, 225, 225, 0.508);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.353);
+
+  text-indent: 20px;
+
+}
+
+.aaa{
+    background-image: url('imagens/imagem_2022-09-29_115029975.jpeg');
+    background-position: right center;
+    background-size: cover;
+}
+
+
+.certificado{
+    float: right;
+    display: inline;
+    background-image: url('imagens/certificado.jpeg');
+    background-size: cover;
+    background-position: center center
+    ;
+
+
+    height: 400px;
     width: 500px;
-    height: 500px;
+    margin-right: 20px;
+}
+
+.texto h2 {
 }
