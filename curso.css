@@ -71,8 +71,7 @@ main{
     display: inline;
     background-image: url('imagens/certificado.jpeg');
     background-size: cover;
-    background-position: center center
-    ;
+    background-position: center center;
 
 
     height: 400px;
