@@ -73,11 +73,12 @@ main{
     background-size: cover;
     background-position: center center;
 
-
     height: 400px;
     width: 500px;
-    margin-right: 20px;
+    margin: 20px;
 }
 
-.texto h2 {
+.texto{
+  padding: 10px;
+  text-align: justify;
 }
