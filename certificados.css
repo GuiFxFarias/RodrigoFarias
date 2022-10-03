@@ -1,0 +1,91 @@
+
+
+.fundo-certificado{
+    background-color: #0b0d67;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.certificados{
+    width: 300px;
+    height: 220px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.certificado-container{
+    background-color: rgba(255, 255, 255, 0.163);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px;
+    width: 1400px;
+    padding: 0px;
+}
+
+#cert01{
+    background-image: url('certificados/certificado01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#cert02{
+    background-image: url('certificados/cert2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#cert03{
+    background-image: url('certificados/certificado01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#cert04{
+    background-image: url('certificados/certificado01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#cert05{
+    background-image: url('certificados/certificado01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#cert06{
+    background-image: url('certificados/certificado01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#cert07{
+    background-image: url('certificados/certificado01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#cert08{
+    background-image: url('certificados/certificado01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#cert09{
+    background-image: url('certificados/certificado01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#cert10{
+    background-image: url('certificados/certificado01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

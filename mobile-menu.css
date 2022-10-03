@@ -13,12 +13,14 @@
     }
     .div-bar-mobile ul{
         display: flex;
+        align-items: center;
         flex-direction: column;
         text-align: center;
     }
     .div-bar-mobile .item-list{
         display: block;
         padding: 5px 0px;
+        
     }
     .open{
         display: block;

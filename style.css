@@ -71,9 +71,8 @@ header{
 .div-bar-mobile li{
     padding: 10px;
     border-top: 1px solid white;
+    margin: auto;
 }
-
-
 
 .botao{
     display: none;
