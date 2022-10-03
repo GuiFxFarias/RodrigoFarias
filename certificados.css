@@ -13,12 +13,19 @@
 .certificados{
     width: 300px;
     height: 220px;
-    border: 1px solid black;
     margin: 20px;
 }
 
+.certificados:hover{
+    opacity: 0.5;
+    transition: 1s;
+    cursor: pointer;
+}
+
 .certificado-container{
-    background-color: rgba(255, 255, 255, 0.163);
+    background-color: rgba(0, 0, 0, 0.311);
+    border-radius: 20px;
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -42,49 +49,49 @@
     background-position: center;
 }
 #cert03{
-    background-image: url('certificados/certificado01.png');
+    background-image: url('certificados/cert3.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 #cert04{
-    background-image: url('certificados/certificado01.png');
+    background-image: url('certificados/cert4.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 #cert05{
-    background-image: url('certificados/certificado01.png');
+    background-image: url('certificados/cert5.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 #cert06{
-    background-image: url('certificados/certificado01.png');
+    background-image: url('certificados/cert6.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 #cert07{
-    background-image: url('certificados/certificado01.png');
+    background-image: url('certificados/cert7.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 #cert08{
-    background-image: url('certificados/certificado01.png');
+    background-image: url('certificados/cert8.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 #cert09{
-    background-image: url('certificados/certificado01.png');
+    background-image: url('certificados/cert9.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
 #cert10{
-    background-image: url('certificados/certificado01.png');
+    background-image: url('certificados/cert10.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
