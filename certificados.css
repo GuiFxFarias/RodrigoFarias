@@ -10,19 +10,20 @@
 
 }
 
-.certificados{
+.menor{
     width: 300px;
     height: 220px;
     margin: 20px;
+    text-align: center;
 }
 
-.certificados:hover{
+.menor:hover{
     opacity: 0.5;
     transition: 1s;
     cursor: pointer;
 }
 
-.certificado-container{
+.maior{
     background-color: rgba(0, 0, 0, 0.311);
     border-radius: 20px;
 
@@ -36,63 +37,68 @@
     padding: 0px;
 }
 
-#cert01{
-    background-image: url('certificados/certificado01.png');
-    background-repeat: no-repeat;
-    background-size: contain;
+.certificados{
     background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 210px;
 }
-#cert02{
-    background-image: url('certificados/cert2.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+
+
+.lightbox{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.733);
 }
-#cert03{
-    background-image: url('certificados/cert3.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+
+.lightbox:target{
+    display: block;
 }
-#cert04{
-    background-image: url('certificados/cert4.png');
+
+.lightbox span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    text-align: center;
 }
-#cert05{
-    background-image: url('certificados/cert5.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+
+#abc{
+    width: 100%;
 }
-#cert06{
-    background-image: url('certificados/cert6.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+
+
+#img01{
+    background-image: url('certGrande/cert01.png');
 }
-#cert07{
-    background-image: url('certificados/cert7.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+
+#img02{
+    background-image: url('certGrande/cert02.png');
 }
-#cert08{
-    background-image: url('certificados/cert8.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-#cert09{
-    background-image: url('certificados/cert9.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-#cert10{
-    background-image: url('certificados/cert10.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+
+@media screen and (max-width: 750px) {
+    body > div#txt{
+        height: 1200px;
+        background-color: rgba(255, 255, 255, 0.093);
+    }
+
+    .menor{
+        display: inline-block;
+        width: 100%;
+        max-width: 80%;
+        height: 20%;
+        margin: 0px 10px;
+        background-size: contain;
+    }
+    #cert01{
+        text-align: center;
+        width: 70%;
+    }
 }
