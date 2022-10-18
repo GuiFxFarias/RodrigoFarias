@@ -8,14 +8,6 @@ main{
     
     background-size: cover;
 }
-
-.container {
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-}
-
 .foto-aula {
   background-image: url("imagens/aula.jpeg");
   background-size: contain;
@@ -23,10 +15,10 @@ main{
   background-repeat: no-repeat;
 
   background-color: rgba(0, 0, 0, 0.575);
-  width: 100%;
-  max-width: 600px;
+  width: 600px;
   height: 500px;
-  border-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -63,6 +55,10 @@ main{
     background-image: url('imagens/imagem_2022-09-29_115029975.jpeg');
     background-position: right center;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  center;
 }
 
 
@@ -84,4 +80,19 @@ main{
 .texto{
   padding: 10px;
   text-align: justify;
+}
+
+.container-frs{
+  background-color: rgba(0, 0, 0, 0.575);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.foto-frs{
+  background-image: url("imagens/IMG-20220913-WA0040.jpg");
+  height: 500px;
+  width: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
