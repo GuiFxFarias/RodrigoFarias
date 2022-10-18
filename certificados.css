@@ -1,104 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+h1 {
+  text-align: center;
+  margin: 1em 0;
+  font-family: sans-serif;
+}
 
-.fundo-certificado{
-    background-color: #0b0d67;
-    height: 100%;
+.container {
+  position: relative;
+  padding: 15px;
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #050632;
+}
+
+.fundo-slider{
+    background-color: #050632;
+    height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-
+    flex-direction: column;
 }
 
-.menor{
-    width: 300px;
-    height: 220px;
-    margin: 20px;
-    text-align: center;
+.gallery-wrapper {
+  overflow-x: auto;
 }
 
-.menor:hover{
-    opacity: 0.5;
-    transition: 1s;
-    cursor: pointer;
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  color: #fff;
+  transition: all 600ms ease-in-out;
+  background: linear-gradient(to left, transparent 0%, black 200%);
+  opacity: 0.1;
+  cursor: pointer;
+  border: none;
 }
 
-.maior{
-    background-color: rgba(0, 0, 0, 0.311);
-    border-radius: 20px;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-
-    margin: 10px;
-    width: 1400px;
-    padding: 0px;
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
 }
 
-.certificados{
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 210px;
+.arrow-right {
+  right: 0;
+  left: auto;
+  text-align: right;
+  background: linear-gradient(to right, transparent 0%, black 200%);
 }
 
-
-.lightbox{
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 2em;
-    background-color: rgba(0, 0, 0, 0.733);
-}
-
-.lightbox:target{
+.txt-certificado{
     display: block;
-}
-
-.lightbox span{
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
     text-align: center;
-}
-
-#abc{
+    background-color: rgba(255, 255, 255, 0.726);
+    padding: 10px;
+    box-shadow: 0px 0px 7px black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     width: 100%;
+    max-width: 900px;
+    height: 58%;
 }
 
-
-#img01{
-    background-image: url('certGrande/cert01.png');
+.gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
 }
 
-#img02{
-    background-image: url('certGrande/cert02.png');
+.item {
+  width: 350px;
+  height: 250px;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  opacity: 0.5;
 }
 
-@media screen and (max-width: 750px) {
-    body > div#txt{
-        height: 1200px;
-        background-color: rgba(255, 255, 255, 0.093);
-    }
+.current-item {
+  opacity: 1;
+}
 
-    .menor{
-        display: inline-block;
-        width: 100%;
-        max-width: 80%;
-        height: 20%;
-        margin: 0px 10px;
-        background-size: contain;
-    }
-    #cert01{
-        text-align: center;
-        width: 70%;
-    }
+/* This is from w3schools */
+/* 
+  https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+/* Hide scrollbar for Chrome, Safari and Opera */
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.gallery-wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.cyan {
+  background: cyan;
+}
+
+.deeppink {
+  background: deeppink;
+}
+
+.turquoise {
+  background: turquoise;
+}
+
+.darkblue {
+  background: darkblue;
+}
+
+.purple {
+  background: purple;
 }
