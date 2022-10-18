@@ -107,16 +107,3 @@ input {
 #slide10:checked ~ .s1 {
   margin-left: -90%;
 }
-
-.txt-certificado {
-  background-color: whitesmoke;
-  margin: auto;
-  max-width: 900px;
-
-  display:block; 
-  text-align: center;
-}
-
-.txt-certificado p{
-  text-indent: 10px;
-}
