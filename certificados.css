@@ -107,18 +107,19 @@ input {
 #slide10:checked ~ .s1 {
   margin-left: -90%;
 }
-.cert-menor{
+.cert-menor {
   display: none;
 }
 
-@media screen and (max-width: 500px) {
-  .navigation{
+
+@media screen and (max-height: 640px) {
+  .navigation {
     display: none;
   }
-  .engloba{
+  .engloba {
     display: none;
   }
-  .cert-menor{
+  .cert-menor {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -127,7 +128,7 @@ input {
 
     padding: 10px;
   }
-  .cert-image img{
+  .cert-image img {
     width: 100%;
     height: 100%;
     padding: 10px;
