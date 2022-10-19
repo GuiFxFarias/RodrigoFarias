@@ -60,7 +60,7 @@
     justify-content: center;
     background-color: #090a52;
 
-    height: 83vh;
+    height: 100vh;
   }
   .txt-links ul {
     display: flex;
@@ -74,11 +74,20 @@
     background-color: rgba(0, 0, 0, 0.607);
     padding: 10px;
   }
+  .txt-links ul li {
+    border-top: 1px solid white;
+  }
   .txt-links ul li a {
     color: white;
   }
 
   .baixo {
     display: none;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .txt-links ul li {
+    font-size: 9pt;
   }
 }

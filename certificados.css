@@ -48,11 +48,12 @@ input {
   justify-content: center;
   align-items: flex-start;
   margin: auto;
+  padding-bottom: 10px;
 }
 
 .bar {
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
   border: 2px solid white;
   margin: 6px;
   border-radius: 15px;
