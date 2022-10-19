@@ -8,37 +8,7 @@ main{
     
     background-size: cover;
 }
-.foto-aula {
-  background-image: url("imagens/aula.jpeg");
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
 
-  background-color: rgba(0, 0, 0, 0.575);
-  width: 600px;
-  height: 500px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.txt-ft {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-
-  background-color: rgba(0, 0, 0, 0.629);
-  color: white;
-  border-radius: 10px;
-  text-shadow: 1px 1px 4px white;
-  height: 40px;
-  padding: 10px;
-
-  transform: translate(10%, -10%);
-  top: 650px;
-}
 
 .texto {
   width: 100%;
@@ -56,7 +26,7 @@ main{
     background-position: right center;
     background-size: cover;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items:  center;
 }
@@ -82,17 +52,24 @@ main{
   text-align: justify;
 }
 
-.container-frs{
-  background-color: rgba(0, 0, 0, 0.575);
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+.txt-curso{
+  background-color: rgba(255, 255, 255, 0.341);
+  width: 100%;
+  max-width: 900px;
+  line-height: 1.7em;
+  font-size: 18pt;
+  text-indent: 15px;
+  padding: 10px;
+  font-weight: 500;
+
+
 }
 
-.foto-frs{
-  background-image: url("imagens/IMG-20220913-WA0040.jpg");
-  height: 500px;
-  width: 600px;
+.foto-aula{
+  background-image: url("imagens/aula.jpeg");
+  height: 65vh;
+  max-width: 500px;
+  margin: 5px auto;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
 }
