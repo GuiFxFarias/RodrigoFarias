@@ -1,36 +1,67 @@
-.dash-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.dash-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
-    padding: 10px;
+  padding: 10px;
 }
 
-main{
-    background-image: linear-gradient(to left, #1921af, #43b6d3, #74c7e6, #cceeff, #fff, #090a52, #040434, #040434);
+.dashs {
+  background-image: linear-gradient(
+    to left,
+    #1921af,
+    #43b6d3,
+    #74c7e6,
+    #cceeff,
+    #fff,
+    #090a52,
+    #040434,
+    #040434
+  );
 }
 
-.dashboard{
-    padding: 0px 10px 10px 10px;
-    background-color: rgba(0, 0, 0, 0.532);
-    border-radius: 10px;
-    color: white;
-    margin: 10px;
+.dashboard {
+  padding: 0px 10px 10px 10px;
+  background-color: rgba(0, 0, 0, 0.532);
+  border-radius: 10px;
+  color: white;
+  margin: 10px;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .dashboard h3 {
-    width: 300px;
-    padding: 10px;
-    text-indent: 10px;
+  width: 300px;
+  padding: 10px;
+  text-indent: 10px;
 }
 
-.txt-projetos p{
-    background-color: black;
-    color: red;
-    padding: 5px;
-    text-align: center;
+@media screen and (max-width: 628px) {
+  .dashs{
+    display: none;
+  }
+  .txt-links{
+    display: flex;
+    justify-content: center;
+    background-color: #090a52;
+
+    height: 83vh;
+  }
+  .txt-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    list-style: none;
+    line-height: 3em;
+
+    background-color: rgba(0, 0, 0, 0.607);
+    padding: 10px;
+  }
+  .txt-links ul li a{
+    color: white;
+  }
 }
