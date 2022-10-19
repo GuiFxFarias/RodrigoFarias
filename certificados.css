@@ -15,15 +15,15 @@ body {
 }
 
 .engloba {
-  height: 85vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .content {
-  height: 500px;
   width: 800px;
   overflow: hidden;
+  text-align: center;
 }
 
 .content .slide img {
@@ -45,9 +45,9 @@ input {
 
 .navigation {
   display: flex;
-  position: absolute;
-  top: 103%;
-  left: 38%;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
 }
 
 .bar {
@@ -106,4 +106,13 @@ input {
 
 #slide10:checked ~ .s1 {
   margin-left: -90%;
+}
+
+@media screen and (max-width: 800px) {
+  .navigation{
+    display: none;
+  }
+  .engloba{
+    display: none;
+  }
 }
