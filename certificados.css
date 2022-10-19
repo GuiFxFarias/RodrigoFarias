@@ -107,12 +107,29 @@ input {
 #slide10:checked ~ .s1 {
   margin-left: -90%;
 }
+.cert-menor{
+  display: none;
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   .navigation{
     display: none;
   }
   .engloba{
     display: none;
+  }
+  .cert-menor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+  }
+  .cert-image img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
   }
 }
