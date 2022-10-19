@@ -13,11 +13,10 @@
     #1921af,
     #43b6d3,
     #74c7e6,
-    #cceeff,
     #fff,
-    #090a52,
-    #040434,
-    #040434
+    #74c7e6,
+    #43b6d3,
+    #1921af
   );
 }
 
@@ -37,31 +36,49 @@
   padding: 10px;
   text-indent: 10px;
 }
+.txt-links {
+  display: none;
+}
+
+.baixo {
+  background-color: black;
+}
+
+.baixo p {
+  padding: 5px;
+  color: red;
+  text-align: center;
+}
 
 @media screen and (max-width: 628px) {
-  .dashs{
+  .td-iframe {
     display: none;
   }
-  .txt-links{
+
+  .txt-links {
     display: flex;
     justify-content: center;
     background-color: #090a52;
 
     height: 83vh;
   }
-  .txt-links ul{
+  .txt-links ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
     list-style: none;
     line-height: 3em;
 
     background-color: rgba(0, 0, 0, 0.607);
     padding: 10px;
   }
-  .txt-links ul li a{
+  .txt-links ul li a {
     color: white;
+  }
+
+  .baixo {
+    display: none;
   }
 }
