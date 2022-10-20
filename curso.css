@@ -50,7 +50,7 @@ main {
 }
 
 .txt-curso {
-  background-color: rgba(255, 255, 255, 0.341);
+  background-color: rgba(255, 255, 255, 0.674);
   width: 100%;
   max-width: 900px;
   line-height: 1.9em;
@@ -87,6 +87,13 @@ main {
   background-position: center;
   margin-left: 5px;
   border-radius: 5px;
+}
+
+.container a{
+  color: red;
+  background-color: rgba(0, 0, 0, 0.704);
+  padding: 5px;
+  border-radius: 4px;
 }
 
 @media screen and (max-width: 700px) {
