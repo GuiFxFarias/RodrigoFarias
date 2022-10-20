@@ -12,6 +12,7 @@ h1 {
 
 body {
   background-color: #050632;
+  overflow-x: hidden;
 }
 
 .engloba {
@@ -123,19 +124,21 @@ input {
     display: block;
     margin-top: 10px;
   }
-  .cert-image img {
+  .cert-image img { 
     width: 90%;
     height: 90%;
   }
   .cert-image {
     text-align: center;
-    margin-right: 10px;
     margin-bottom: 5px;
+  }
+  .cert-image img {
+    text-align: center;
   }
   .container-menor {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
   }
 }
 
@@ -156,12 +159,11 @@ input {
   }
   .cert-image {
     text-align: center;
-    margin-right: 10px;
     margin-bottom: 5px;
   }
   .container-menor {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
   }
 }
