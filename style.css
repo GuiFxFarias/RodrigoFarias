@@ -12,6 +12,10 @@
   text-align: justify;
 }
 
+body{
+  background-color: #050632;
+}
+
 a {
   text-decoration: none;
   color: white;
