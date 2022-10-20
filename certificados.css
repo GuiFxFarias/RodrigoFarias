@@ -142,7 +142,7 @@ input {
   }
 }
 
-@media screen and (max-height: 636px) {
+@media screen and (max-height: 690px) {
   .navigation {
     display: none;
   }
