@@ -4,11 +4,9 @@
   --fontprin: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-main{
-    
-    background-size: cover;
+main {
+  background-size: cover;
 }
-
 
 .texto {
   width: 100%;
@@ -18,58 +16,112 @@ main{
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.353);
 
   text-indent: 20px;
-
 }
 
-.aaa{
-    background-image: url('imagens/imagem_2022-09-29_115029975.jpeg');
-    background-position: right center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:  center;
+.aaa {
+  background-image: url("imagens/imagem_2022-09-29_115029975.jpeg");
+  background-position: right center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
+.certificado {
+  float: right;
+  display: inline;
+  background-image: url("imagens/certificado.jpeg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 
-.certificado{
-    float: right;
-    display: inline;
-    background-image: url('imagens/certificado.jpeg');
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-
-    max-width: 500px;
-    max-height: 400px;
-    height: 400px;
-    width: 100%;
-    margin: 15px;
+  max-width: 500px;
+  max-height: 400px;
+  height: 400px;
+  width: 100%;
+  margin: 15px;
 }
 
-.texto{
+.texto {
   padding: 10px;
   text-align: justify;
 }
 
-.txt-curso{
+.txt-curso {
   background-color: rgba(255, 255, 255, 0.341);
   width: 100%;
   max-width: 900px;
-  line-height: 1.7em;
+  line-height: 1.9em;
   font-size: 18pt;
   text-indent: 15px;
   padding: 10px;
   font-weight: 500;
-
-
 }
 
-.foto-aula{
+.fotos-curso {
+  display: flex;
+  flex-direction: row;
+
+  padding: 10px;
+  width: 100%;
+}
+
+.foto-aula {
   background-image: url("imagens/aula.jpeg");
-  height: 65vh;
-  max-width: 500px;
-  margin: 5px auto;
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 400px;
+  width: 60%;
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.foto-certificado {
+  background-image: url("imagens/certificado.jpeg");
+  height: 400px;
+  width: 60%;
+  background-size: cover;
+  background-position: center;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .fotos-curso {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .foto-aula {
+    width: 95%;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+  .foto-certificado {
+    width: 95%;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .fotos-curso {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+  }
+  .foto-aula {
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+  }
+  .foto-certificado {
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+  }
 }
